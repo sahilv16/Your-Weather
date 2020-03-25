@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2|Kaushan+Script&display=swap" 
+    rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <!-- <img src="clouds.jfif" alt="" srcset=""> -->
+        <h1>Your Weather</h1>
+    </div>
+    <div class="input-sec">
+        <input id="keyword" type="text" onchange="inputChange()" placeholder="Enter Your City">
+        <button type="submit" id="sub" onclick="weatherAsk()">Search</button>
+    </div>
+    <div class="weather-container"> 
+        <div class="inner"><p class="name"></p></div><br>
+        <div class="inner"><p class="weather"></p></div><br>
+        <div class="inner"><p class="temp"></p></div><br>
+        <div class="inner"><p class="humidity"></p></div><br>
+        <div class="inner"><p class="speed"></div><br>
+        <div class="inner"><p class="pressure"></div>
+    </div>
+    <div class="new">
+        <img class="climate"src="" alt="" srcset="">
+    </div>
+</body>
+</html>

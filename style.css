@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+}
+.nav{
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    background-image: linear-gradient(black, black),url('all-images/clouds.jfif');
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    background-size: 100%;
+    backdrop-filter: grayscale(30%);
+}
+.nav h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.input-sec{
+    padding: 0;
+    text-align: center;
+    height: 80px;
+    background-color: black;
+}
+.input-sec input{
+    height: 30px;
+    width: 300px;
+    /* margin: 0; */
+    margin-top: 25px;
+    border: none;
+    padding: 0px 12px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.input-sec button{
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    width: 80px;
+    border: 1px solid white;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: 1s;
+    font-size: 20px;
+}
+.input-sec button:hover{
+    color: black;
+    background-color: white;
+}
+.weather-container{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 625px;
+    /* background-color: yellowgreen; */
+}
+.image{
+    display: inline-block;
+}
+img{
+    /* margin-top: 50px; */
+    width: 100px;
+}
+.icon{
+    display: inline-block;
+}
+.name{
+    margin: 0;
+}
+.inner{
+    margin: 0;
+    display: inline-block;
+}
+p{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    font-family: 'Baloo 2', cursive;
+}
+.name{
+    font-size: 40px;
+    height: 10px;
+    padding-left: 10px;
+}
+.weather{
+    font-size: 20px;
+    height: 10px;
+    padding-left: 10px;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.speed{
+    width: auto;
+    font-size: 30px;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.humidity{
+    margin-top: 5px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+    height: auto;
+
+}
+.pressure{
+    font-size: 30px;
+    width: auto;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+.windy{
+    display: inline-block;
+}
+.new{
+    display: inline-block;
+}
+/* .climate{
+    height: 100px;
+    width: 100px;
+} */
