@@ -14,9 +14,16 @@ In this you can easily search your city and get the weather condition right away
 ## Some Shots :-
 # Landing Page 
 <img src ="Landing.png"/>
+
 # Weather Page
 <img src ="weather.png"/>
 
 ## How to run it on your system ?
 Just clone the repository and open the index.html file in browser or if you are using VS code,
 then you can open it through live server
+
+## App Info
+### Author 
+###### Sahil Verma
+### Version
+###### 1.0.0
