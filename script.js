@@ -29,7 +29,7 @@ function weatherAsk() {
 
     var weather = data.weather[0].main
     $('.weather').html(weather)
-    if(weather == '')
+  
 
     var humidity = data.main.humidity
     $('.humidity').html("Humidity: "+humidity+ "%")
