@@ -44,7 +44,7 @@ function weatherAsk() {
     $('.pressure').html("Pressure: "+pressure)
 
     var path = data.weather[0].main
-    var img = "all-images/"+path+".gif"
+    var img = "/all-images/"+path+".gif"
     $('.climate').attr('src', img)
 })
 }
