@@ -12,7 +12,7 @@ function inputChange() {
 function weatherAsk() {
     // document.body.innerHTML =''
     var city  = document.getElementById('keyword').value ;
-   $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=91b6cdee2e31130d3616bf0d42c10241&units=metric", function(data){
+   $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=91b6cdee2e31130d3616bf0d42c10241&units=metric", function(data){
     console.log(data);
     // var icon = "http://api.openweathermap.org/img/w/" + data.weather[0].icon + ".png";    
     // $('.icon').attr('src', icon)
